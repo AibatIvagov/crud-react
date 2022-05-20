@@ -1,0 +1,60 @@
+.imgContact {
+  width: 500px;
+  height: 400px;
+}
+
+.card-img {
+  width: 280px;
+  height: 175px;
+}
+
+.card-body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-title.h5 {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.card-text {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.contactListContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+
+.contactListBtn {
+  width: 100px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 10px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border: 4px;
+  color: white;
+  font-weight: 700;
+}

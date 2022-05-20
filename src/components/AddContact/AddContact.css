@@ -1,0 +1,72 @@
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+#addContacth1 {
+  color: white;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.addContactContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.addContactInputs {
+  width: 200px;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 20px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  margin-top: 10px;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+}
+
+.addContactInputs::placeholder {
+  text-align: center;
+  color: white;
+  font-weight: 500;
+}
+
+.addContactBtn {
+  border-radius: 10px;
+  width: 140px;
+  height: 40px;
+  margin-top: 20px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border: 2px rgba(0, 212, 255, 1) solid;
+  color: white;
+  font-weight: 700;
+}
+
+.addContactBtn:hover {
+  width: 142px;
+  height: 42px;
+  transition: 0.2;
+}
